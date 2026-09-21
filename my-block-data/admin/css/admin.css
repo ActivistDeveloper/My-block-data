@@ -1,0 +1,44 @@
+.mbd-wrap .mbd-columns {
+	display: flex;
+	gap: 2em;
+	align-items: flex-start;
+	margin-top: 1em;
+}
+
+.mbd-wrap .mbd-col-list {
+	flex: 1 1 55%;
+}
+
+.mbd-wrap .mbd-col-form {
+	flex: 1 1 40%;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	padding: 1em 1.5em;
+}
+
+.mbd-wrap .mbd-delete-link {
+	color: #a00;
+}
+
+.mbd-dataset-switcher {
+	margin: 1em 0;
+}
+
+.mbd-link-row {
+	display: flex;
+	gap: 0.5em;
+	margin-bottom: 0.5em;
+	align-items: center;
+}
+
+.mbd-format-example {
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	padding: 1em;
+	max-width: 600px;
+	white-space: pre-wrap;
+}
+
+#mbd-new-dataset-row {
+	display: table-row;
+}
